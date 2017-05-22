@@ -1,0 +1,17 @@
+{
+  "name": "echofbbot",
+  "version": "1.0.0",
+  "description": "FacebookBot Chat",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beyram Ben Elghali",
+  "license": "ISC"
+}
