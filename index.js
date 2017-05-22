@@ -20,7 +20,7 @@ app.get('/webhook/', function (req, res) {
 		res.send('Error ! token is wrong')
 	}
 })
-const token = "EAAO0uD2DpOkBAJbGeOM81emLDYpR9ZAjzD8gRY97lV1NVR1JFIuT4XZB8ppM8NFhrajJUZB2IK6s2jruKYSnGpFtneq3U4GkIWENta3ig60LG0DYYKtKQM9fTuJLJwr18orfTxPL7mU4HQZBo3hsNzjlHWaQTx9Ro14mSI4ZCDwZDZD"
+const token = "ACCES-TOKEN"
 
 app.post('/webhook/', function (req, res) {
 	let messaging_events = req.body.entry[0].messaging
